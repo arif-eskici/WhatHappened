@@ -1,0 +1,27 @@
+server:
+  port: 8085
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/pribas
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: 12345
+
+#  datasource:
+#    generate-unique-name: false
+#    url: jdbc:h2:./devdb
+#    username: sa
+#  h2:
+#    console:
+#      enabled: true
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    open-in-view: false
+
+what-happen:
+  upload-path: file-storage
+
