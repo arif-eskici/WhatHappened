@@ -20,4 +20,4 @@ The purpose of this web application;
 
 - `POST Mapping` :
 
-![1](../images/1_POST_users_201.png)
+![1](images/1_POST_users_201.png)
