@@ -24,8 +24,28 @@ The purpose of this web application;
 
 - `GET Mapping` :
 
-![1](images/2_GET_timeline&moment_200.png)
+![2](images/2_GET_timeline&moment_200.png)
 
 - `PUT Mapping` :
 
-![1](images/3_PUT_timeline_200.png)
+![3](images/3_PUT_timeline_200.png)
+
+- `DELETE Mapping` :
+
+![4](images/4_DELETE_moment_200.png)
+
+- `Swagger` :
+
+![5](images/5_Swagger.png)
+
+- `Swagger_GET` :
+
+![6](images/6_Swagger_GET.png)
+
+- `Database - PostgreSQL` :
+
+![7](images/7_postgresql.png)
+
+- `Database - H2` :
+
+![8](images/8__h2.png)
