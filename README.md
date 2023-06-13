@@ -16,8 +16,16 @@ The purpose of this web application;
     - `Swagger & Open API & Postman`
     - `Intellij IDEA`
 
-### images
+### Images
 
 - `POST Mapping` :
 
 ![1](images/1_POST_users_201.png)
+
+- `GET Mapping` :
+
+![1](images/2_GET_timeline&moment_200.png)
+
+- `PUT Mapping` :
+
+![1](images/3_PUT_timeline_200.png)
