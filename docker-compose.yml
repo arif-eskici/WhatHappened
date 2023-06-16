@@ -1,21 +1,20 @@
-version: '3.4'
+version: '3.1'
 services:
+  app:
+    container_name: docker-whathappened
+    image: whathappened
+    build: ./
+    ports:
+      - "8085:8085"
+    depends_on:
+      - postgresqldb
+
   postgresqldb:
-    image: postgres:latest
+    image: postgres
     ports:
       - "5433:5432"
     environment:
-      - POSTGRES_URL = jdbc:postgresql://localhost:5433/pribas
       - POSTGRES_PASSWORD = 12345
       - POSTGRES_USER = postgres
       - POSTGRES_DB = pribas
-
-  app:
-    container_name: docker-whathappened
-    image: whathappened:latest
-    build: ./
-    ports:
-      - "8080:8085"
-    depends_on:
-      - postgresqldb
 
